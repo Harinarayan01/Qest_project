@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn.login {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.btn.try-free {
+    background-color: #e63946;
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-section {
+    width: 30%;
+}
+
+.dropdown-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e63946;
+}
+
+.dropdown-section ul {
+    list-style: none;
+}
+
+.dropdown-section ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+/* Main Section */
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta .btn {
+    margin: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.get-started {
+    background-color: #e63946;
+    color: #fff;
+}
+
+.book-demo {
+    background-color: #333;
+    color: #fff;
+}
